@@ -48,6 +48,7 @@ const PostList: React.FC<Props> = ({ q }) => {
 
       return newFilteredPosts
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q, currentTag, currentCategory, currentOrder, setFilteredPosts])
 
   return (

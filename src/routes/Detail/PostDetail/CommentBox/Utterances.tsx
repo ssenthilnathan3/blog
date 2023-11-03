@@ -33,6 +33,7 @@ const Utterances: React.FC<Props> = ({ issueTerm }) => {
     return () => {
       anchor.innerHTML = ""
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [scheme, router])
   return (
     <>
